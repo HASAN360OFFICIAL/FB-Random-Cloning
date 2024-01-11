@@ -122,35 +122,6 @@ for txxxtt in range (1000):
    
 os.system('clear')
 
-attemps = 0
-
-os.system('espeak -a 300 " Enter, Your, Username "')
-
-while attemps < 12345677901:
-	
-    username = input(' \033[0;92mEnter Username: ')
-    
-    os.system('espeak -a 300 " Enter, Your, Password "')
-    
-    password = input(' \033[0;93mEnter Password: ')
-
-    if username == 'D' and password == 'W':
-    	
-        print(' \033[0;92mYou Have Successfully Logged in.')
-        
-        os.system('espeak -a 300 " Successfully, logged, in,"')
-        break
-    else:
-        print(' Incorrect User or password Please Trying ')
-        
-        os.system('espeak -a 300 "Incorrect, User or Password, Please, try, again,"')
-        
-        os.system('espeak -a 300 " Enter, Your, Username "')
-    
-        attemps += 1
-        continue
-        
-os.system('clear')
 
 os.system("espeak \"welcome ,to ,hasan , random, cloning, tools\"")
 
